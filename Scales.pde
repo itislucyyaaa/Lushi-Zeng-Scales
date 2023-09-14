@@ -7,10 +7,11 @@ void draw(){
   for (int a = 30; a < 500; a+=60){
     scale(a,b);
   }
-}}
+}
+}
 
 void scale(int x,int y){
-int c = (int)(Math.random()*255);
+int c = (int)(Math.random()*256);
 fill(c,c,0);
 beginShape();
   vertex(x,y);
